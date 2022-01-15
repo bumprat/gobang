@@ -1,0 +1,77 @@
+body{
+    margin:0px;
+    
+}
+.content{
+    display:flex;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+}
+.upper{
+    background-color: aliceblue;
+    height:70vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lower{
+    background-color: lime;
+    height:30vh;
+    display:flex;
+    flex-direction: row;
+}
+.player1, .player2{
+    background-color:darkgray;
+    width:20vw;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stage{
+    overflow: auto;
+    height:70vh;
+    display: flex;
+    align-items: center;
+}
+.board{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin:auto;
+}
+.control{
+    background-color: white;
+    width:50vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.output{
+    width:50vw;
+    height: 30vh;
+    background-color: gainsboro;
+    overflow: auto;
+}
+.log{
+    margin:20px;
+}
+.cell{
+    background-color: white;
+    width:25px;
+    height:25px;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    box-sizing: border-box; 
+}
+.cell:hover{
+    background-color: blanchedalmond;
+}

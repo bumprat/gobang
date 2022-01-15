@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>五子棋</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="content">
+            <div class="upper">
+                <div class="player1">
+                    ⚪
+                </div>
+                <div class="stage">
+                    <div class="board">
+                    </div>
+                </div>
+                <div class="player2">
+                    ⚫
+                </div>
+            </div>
+            <div class="lower">
+                <div class="control">
+                    <div>
+                        棋盘大小
+                        <select id="boardSize">
+                            <option>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                        </select>
+                    </div>
+                    <div>
+                        胜利条件
+                        <select id="winCond">
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button id="start">开始游戏</button>
+                    </div>
+                </div>
+                <div class="output">
+                    <div class="log">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
